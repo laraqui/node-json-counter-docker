@@ -1,0 +1,4 @@
+az ad sp create-for-rbac --name "github-actions-sp" \
+  --role contributor \
+  --scopes /subscriptions/a76700b8-a2f0-48e1-9bd2-0c312ac86d6f \
+  --sdk-auth
